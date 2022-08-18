@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    width: 10;
+}
+.navlist{
+    width: 50%;
+    /* background-color: sandybrown; */
+    display: flex;
+    align-items: center;
+
+      
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: white;
+
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.rightnav{
+    /* background-color: blueviolet; */
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border: 3px solid sandybrown;
+    border-radius: 50px;
+    width: 33%;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/website background.jpg');
+    background-size: 1000vh;
+    background-blend-mode: darken;
+}
+.firstsection{
+      
+
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 120%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+
+}
+.textbig{
+    font-size: 40px;
+    margin: auto;
+    text-align: center; 
+}
+.textsmall{
+    font-size: 20px;
+    margin: auto;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 10px;
+}
+.aboutme{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 0px 0px;
+}
+#mypoetries{
+     text-align: center;
+     color: aqua;
+}
+.poetry{
+    text-align: center;
+    color: aqua;
+    padding: 10px 0px;
+}
+#mypoetries{
+    padding: 15px 10px;
+}
+.contact a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin: 12px 0px;
+}
